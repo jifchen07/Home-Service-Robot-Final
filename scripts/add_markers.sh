@@ -9,5 +9,5 @@ xterm  -e  "source $(pwd)/devel/setup.bash;
 roslaunch turtlebot_rviz_launchers view_navigation.launch" &
 sleep 5
 xterm  -e  "source $(pwd)/devel/setup.bash;
-rosrun add_markers add_markers"
+rosrun add_markers_simple add_markers_simple"
 
